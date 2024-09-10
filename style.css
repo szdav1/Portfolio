@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "SUSE";
+    color: whitesmoke;
+}
+
+body {
+    background-color: whitesmoke;
+    background-image: url("pics/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(12, 17, 23, 0.7);
+}
+
+nav a {
+    text-decoration: none;
+    margin: 1em;
+}
+
+#main-navbar {
+    padding: 0.7rem;
+}
