@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 
 :root {
+    --oblack: rgba(12, 17, 23, 0.7);
 }
 
 * {
@@ -8,6 +9,7 @@
     padding: 0;
     font-family: "SUSE";
     color: whitesmoke;
+    font-weight: bold;
 }
 
 body {
@@ -23,12 +25,50 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: rgba(12, 17, 23, 0.7);
+    background-color: var(--oblack);
 }
 
 nav a {
     text-decoration: none;
     margin: 1em;
+}
+
+#content {
+    background-color: var(--oblack);
+    max-width: 70%;
+    margin: 2rem auto;
+    box-shadow: black 0.7rem 0.7rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#content h1 {
+    text-shadow: gray 0.1rem 0.1rem 0.1rem;
+}
+
+.brief-intro {
+    border: 1px solid whitesmoke;
+    background-color: rgba(245, 245, 245, 0.7);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.brief-intro p {
+    color: black;
+    text-align: justify;
+}
+
+.brief-intro h2 {
+    color: black;
+}
+
+.brief-intro-btn {
+    padding: 0.25rem;
+    margin: 0.3rem;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
 }
 
 #main-navbar {
