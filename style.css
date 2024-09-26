@@ -52,6 +52,7 @@ nav a {
     background-color: rgba(245, 245, 245, 0.7);
     border-radius: 0.5rem;
     padding: 1rem;
+    transition: all 0.3s linear;
 }
 
 .brief-intro p {
@@ -64,13 +65,26 @@ nav a {
 }
 
 .brief-intro-btn {
-    padding: 0.25rem;
+    padding: 0.3rem;
     margin: 0.3rem;
     border: none;
     border-radius: 100%;
     cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.brief-intro-btn:hover {
+    background-color: gray;
 }
 
 #main-navbar {
     padding: 0.7rem;
+}
+
+#main-navbar a {
+    transition: all 0.3s linear;
+}
+
+#main-navbar a:hover {
+    color: rgb(67, 76, 94);
 }

@@ -6,13 +6,14 @@ const $s = (id) => {
     return document.querySelectorAll(id);
 }
 
-const szurkediv = $("#szurke");
 const szabodiv = $("#szabo");
 const szantodiv = $("#szanto");
 const briefIntro = $s(".brief-intro");
 const briefIntroBtn = $s(".brief-intro-btn");
 
-szabodiv.style = "display: none;";
+const grayish = "rgb(67, 76, 94)";
+
+briefIntroBtn[0].style = `background-color: ${grayish};`;
 szantodiv.style = "display: none;";
 
 const getIndexOf = (arr, item) => {
@@ -28,10 +29,14 @@ const toggleBriefIntro = (item) => {
     const index = getIndexOf(briefIntroBtn, item);
 
     for (let i = 0; i < briefIntroBtn.length; i++) {
-        if (i == index)
+        if (i == index) {
             briefIntro[i].style = "display: block;";
-        else
+            briefIntroBtn[i].style = `background-color: ${grayish};`;
+        }
+        else {
             briefIntro[i].style = "display: none;";
+            briefIntroBtn[i].style = `background-color: whitesmoke;`;
+        }
     }
 }
 
