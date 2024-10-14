@@ -87,3 +87,43 @@ nav a {
 .smallerimg {
     max-width: 10%;
 }
+
+#ref-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ref-items a {
+    transition: all 0.3s linear;
+    margin: 1rem;
+}
+
+#refs-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ref-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ref-img {
+    width: 50%;
+    min-width: 100px;
+}
+
+.ref-img img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--oblack);
+}

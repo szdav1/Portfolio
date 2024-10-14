@@ -36,11 +36,21 @@
     justify-content: flex-start;
 }
 
-<<<<<<< HEAD
+a {
+    text-decoration: none;
+    text-align: left;
+    transition: all 0.3s linear;
+}
+
+a:hover {
+    color: rgb(67, 76, 94);
+}
+
 .contact img {
     margin-right: 0.5rem;
     max-width: 10%;
-=======
+}
+
 .breaked {
     word-break: break-all;
 }
@@ -49,7 +59,6 @@
     margin-right: 0.5rem;
     max-width: 10%;
     min-width: 30px;
->>>>>>> 20f4d8f9b6214627b1c7bddaf50964c91c0db965
 }
 
 hr {
@@ -66,10 +75,7 @@ li {
     margin-right: 1rem;
     max-width: 60%;
     margin: auto;
-<<<<<<< HEAD
-=======
     margin-top: 1rem;
->>>>>>> 20f4d8f9b6214627b1c7bddaf50964c91c0db965
 }
 
 .rightside p {
