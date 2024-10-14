@@ -33,7 +33,7 @@ nav a {
     margin: 1em;
 }
 
-#content {
+.content {
     background-color: var(--oblack);
     max-width: 70%;
     margin: 2rem auto;
@@ -43,7 +43,7 @@ nav a {
     padding: 1rem;
 }
 
-#content h1 {
+.content h1 {
     text-shadow: gray 0.1rem 0.1rem 0.1rem;
 }
 
@@ -56,12 +56,7 @@ nav a {
 }
 
 .brief-intro p {
-    color: black;
     text-align: justify;
-}
-
-.brief-intro h2 {
-    color: black;
 }
 
 .brief-intro-btn {
@@ -87,4 +82,8 @@ nav a {
 
 #main-navbar a:hover {
     color: rgb(67, 76, 94);
+}
+
+.smallerimg {
+    max-width: 10%;
 }
